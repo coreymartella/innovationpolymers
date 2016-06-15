@@ -3,8 +3,14 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
+<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 245 }'>
+  {% for image in site.photo_gallery %}
+    <div class="grid-item">
+      <img src="{{ image.image_path }}" width="245" alt="{{ image.title }}">
+    </div>
+  {% endfor %}
+</div>
+<!--   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -17,7 +23,7 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
+ -->
 <!--   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
  -->
 </div>

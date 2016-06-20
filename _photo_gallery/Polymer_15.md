@@ -1,4 +1,4 @@
 ---
-image_path: /images/Polymer_15.png
+filename: Polymer_15.png
 title: Polymer_15.png
 ---

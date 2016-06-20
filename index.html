@@ -81,7 +81,7 @@ layout: null
                             <li><a href="#home"><i class="ion-home"></i> Home</a></li>
                             <li><a href="#about"><i class="ion-person-stalker"></i> About</a></li>
                             <li><a href="#photo_gallery"><i class="ion-images"></i> Photo Gallery</a></li>
-                            <li><a href="#services"><i class="ion-settings"></i> Services</a></li>
+                            <li><a href="#customers"><i class="ion-settings"></i> Our Customers</a></li>
                              <li><a href="#contact"><i class="ion-android-call"></i> Contact</a></li>
                         </ul>
 
@@ -96,7 +96,7 @@ layout: null
       <!-- masterslider -->
         <div class="master-slider ms-skin-default onepage-slider" id="masterslider">
             <div class="ms-slide slide-1">
-<!--                
+
                 <h3 class="ms-layer thin-text-white blacktext"
                     data-type="text"
                     data-effect="top(45)"
@@ -105,8 +105,9 @@ layout: null
                     data-origin="mc"
                     >
                     CREATORS OF
-                </h3> -->
-                <h3 class="ms-layer bold-text-white bigtext"
+                    ACOUSTIC-CAPABLE POLYMERS
+                </h3>
+<!--                 <h3 class="ms-layer bold-text-white bigtext"
                     data-type="text"
                     data-effect="top(45)"
                     data-duration="3400"
@@ -116,7 +117,7 @@ layout: null
                     >
                     CREATORS OF
                     ACOUSTIC-CAPABLE POLYMERS
-                </h3>
+                </h3> -->
                 <img src="assets/master-slider/style/blank.gif" data-src="/images/bg.jpg" alt="lorem ipsum dolor sit"/>    
             </div>
 <!--             <div class="ms-slide slide-2">
@@ -182,7 +183,7 @@ layout: null
             <div class="container">
                 <div class="row intro-row">
                     <div class="col-md-12 text-center wow animated fadeInUp">
-                        <h2>Innovation Polymers</h2>
+                        <h2>About Us</h2>
                         <h3 class="subtitle">Our focus is on highly effective sound transfer through the development of acoustic-capable polymers. These new polymers enable coupling of the ultrasonic sensor to the material under test or provides a layer to couple, seal or optimize energy transfer.</h3>
                     </div>
                     <div class="space-70"></div>
@@ -221,18 +222,18 @@ layout: null
             </div><!--portfolio container end-->
             <div id="grid">
               {% for photo in site.photo_gallery %}
-                <div class=" mix design col-md-4 col-sm-6 margin-btm-40 no-padding">
+                <div class=" mix design col-md-2 col-sm-3 margin-btm-40 no-padding">
                     <div class="portfolio-sec">
                         <div class="portfolio-thumnail">
-                            <a href="portfolio-single.html">
-                                <img src="{{ photo.image_path }}" class="img-responsive" alt="">
-                            </a>
+                            <!-- <a href="portfolio-single.html"> -->
+                                <img src="/images/gallery/thumbnails/{{ photo.filename }}" class="img-responsive" alt="">
+                            <!-- </a> -->
                         </div>
-                        <div class="portfolio-desc text-center">
-                            <h4 class="portfolio-post-title">{{ photo.title }}</h4>
+                        <!-- <div class="portfolio-desc text-center"> -->
+                            <!-- <h4 class="portfolio-post-title">{{ photo.title }}</h4> -->
                             <!-- <span class="portfolio-post-cat">Branding</span> -->
                             <!-- <h4><a href="portfolio-single.html" class="btn theme-btn-default btn-lg">More detail</a></h4> -->
-                        </div>
+                        <!-- </div> -->
                     </div>
                 </div><!--portfolio item -->
               {% endfor %}
@@ -327,68 +328,9 @@ layout: null
                 </h3>
             </div>
         </div>
-  <div class="space-70"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="heading-sec">Latest news</h3>
-                </div>
-            </div><!--row-->
-            <div class="row">
-                <div class="col-md-4 col-sm-6 margin-btm-20">
-                    <div class="news-sec">
-                        <div class="news-thumnail">
-                            <a href="blog-post.html">
-                                <img src="assets/img/blog/blog-1.jpg" class="img-responsive" alt="">
-                            </a>
-                        </div>
-                        <div class="news-desc">
-                            <h3 class="blog-post-title"><a href="blog-post.html" class="hover-color">Lorem ipsum dollor sit amet</a></h3>
-                            <span class="news-post-cat">On 26 may 2014 | sports</span>
-                            <p>
-                                aliqua.adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
-                            </p>
-                        </div>
-                    </div>
-                </div><!--latest news items-->
-                <div class="col-md-4 col-sm-6 margin-btm-20">
-                    <div class="news-sec">
-                        <div class="news-thumnail">
-                            <a href="blog-post.html">
-                                <img src="assets/img/blog/blog-2.jpg" class="img-responsive" alt="">
-                            </a>
-                        </div>
-                        <div class="news-desc">
-                            <h3 class="blog-post-title"><a href="blog-post.html" class="hover-color">Lorem ipsum dollor sit amet</a></h3>
-                            <span class="news-post-cat">On 26 may 2014 | sports</span>
-                            <p>
-                                aliqua.adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
-                            </p>
-                        </div>
-                    </div>
-                </div><!--latest news items-->
-                <div class="col-md-4 col-sm-6 margin-btm-20">
-                    <div class="news-sec">
-                        <div class="news-thumnail">
-                            <a href="blog-post.html">
-                                <img src="assets/img/blog/blog-4.jpg" class="img-responsive" alt="">
-                            </a>
-                        </div>
-                        <div class="news-desc">
-                            <h3 class="blog-post-title"><a href="blog-post.html" class="hover-color">Lorem ipsum dollor sit amet</a></h3>
-                            <span class="news-post-cat">On 26 may 2014 | sports</span>
-                            <p>
-                                aliqua.adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
-                            </p>
-                        </div>
-                    </div>
-                </div><!--latest news items-->
-            </div><!--row end-->
-        </div><!--container recent news end-->
-       
+      
         <section id="contact">
-            <div class="space-50"></div>
-              <div id="footer">
+          <div id="footer">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 margin-btm-20">

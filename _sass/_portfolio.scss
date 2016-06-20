@@ -6,9 +6,17 @@
   position: relative;
   margin-bottom:20px;
 }
-.portfolio-thumnail img{
-  width:100%;
-  height: auto;
+.portfolio-thumnail  {
+  // width: 100%;
+  // height: 0;
+  // padding-bottom: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+  }
+  // width: 100%;
+  // height: auto;
 }
 .portfolio-desc{
   padding: 10px 0;

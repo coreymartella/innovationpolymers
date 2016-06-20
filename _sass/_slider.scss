@@ -84,17 +84,20 @@
 
 /**slider testimonials**/
 #content-region-2{
-    background: $darkcolor;
+    background: #eee;
     padding: 80px 0;
     overflow:hidden;
+    p {
+      color: $darkcolor;
+    }
     .testi-person{
-        color:#fff;
+        color:$darkcolor;
     }
     .flex-control-paging li a{
         background: transparent;
-        border:1px solid #fff;
+        border:1px solid $darkcolor;
         &.flex-active{
-            background-color:#fff;
+            background-color:$darkcolor;
             border-color: #fff;
         }
     }

@@ -21,4 +21,6 @@ url: "http://innovationpolymers.ca" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 collections:
-  photo_gallery:
+  - photo_gallery
+  - pdfs
+  - testimonials

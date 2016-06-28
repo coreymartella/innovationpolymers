@@ -1,3 +1,6 @@
+# Notes for Rick
+* you created `M-1` as a text file in `images/gallery` it needs to be in `_photo_gallery` and needs to end in `.md` the image file belongs in `images/gallery`
+* 
 
 [innovationpolymers.ca](http://innovationpolymers.ca)
 

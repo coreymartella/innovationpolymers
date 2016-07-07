@@ -1,5 +1,5 @@
 ---
 filename: wheel_phased_array.png
-title: Area Scanning Options
-description: Wheel Phased Array
+description: Area Scanning Options
+title: Wheel Phased Array
 ---

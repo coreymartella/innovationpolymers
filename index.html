@@ -79,8 +79,8 @@ layout: null
 
                         <ul class="nav navbar-nav navbar-right smooth-scroll">
                             <li><a href="#home"><i class="ion-home"></i> Home</a></li>
-                            <li><a href="#about"><i class="ion-person-stalker"></i> About</a></li>
                             <li><a href="#products_and_applications"><i class="ion-images"></i> Products &amp; Applications</a></li>
+                            <li><a href="#materials"><i class="ion-images"></i> Materials</a></li>
                             <li><a href="#customers"><i class="fa fa-building-o"></i> Our Customers</a></li>
                              <li><a href="#contact"><i class="ion-android-call"></i> Contact</a></li>
                         </ul>
@@ -179,55 +179,20 @@ layout: null
         </div>
         </section>
         
-        <section class="padd-section" id="about">
-            <div class="container">
-                <div class="row intro-row">
-                    <div class="col-md-12 text-center wow animated fadeInUp">
-                        <h2>About Us</h2>
-                        <h3 class="subtitle">Our focus is on highly effective sound transfer through the development of acoustic-capable polymers. These new polymers enable coupling of the ultrasonic sensor to the material under test and provides a layer to couple, seal or optimize energy transfer.</h3>
-                    </div>
-                    <div class="col-md-6">
-                      <h4>Our Mission</h4>
-                      <p>To develop and produce high quality acoustic capable polymers to support the NDT and medical ultrasonic imaging industries</p>
-                      <p>Innovation Polymers has the capability to develop a wide range of unique sound coupling polymeric media.</p>
-                    </div>
-                    <div class="col-md-6">
-                      <h4>Our Founder: Rick MacNeil P.Eng.</h4>
-                      <p>Rick has over 30 years of Polymer processing and project management experience in the rubber and plastics industry. The last 5 years of moulding products for the NDT industry has given Rick insight into what the industry needs and how to deliver.</p>
-                    </div>
-                    <div class="space-70"></div>
-                    {% for document in site.pdfs %}
-   
-                      <div class="col-sm-3">
-                        <a class="services-box" href="/assets/pdfs/{{ document.filename}}" target="_blank">
-                            <i class="fa fa-file-pdf-o"></i>
-                            <h1>{{ document.title }}</h1>
-                            <p>{{ document.description }}</p>
-                        </a>
-                      </div><!--services box-->
-                    {% endfor %}
-                </div><!--row end-->
-            </div><!--intro with services end-->
-        </section><!--about section end-->
 
         <section id="products_and_applications" class="padd-section">
             <div class="container">
-                <div class="row">
+                <div class="row margin-btm-20">
                     <div class="col-md-12">
                         <h3 class="heading-sec">Products &amp; Applications</h3>
                     </div>
-                </div><!--row-->
-                <!-- <div class="row">
-                    <div class="col-md-12">
-                        <ul class="portfolio-filters">
-                            <li class="filter active" data-filter="all">all</li>
-                            <li class="filter" data-filter="design">design</li>
-                            <li class="filter" data-filter="html">HTML5</li>
-                            <li class="filter" data-filter="wordpress">Wordpress</li>
-                            <li class="filter" data-filter="seo">Seo</li>
-                        </ul>
+                    <div class="col-md-12 text-center">
+                        <a href="/assets/pdf/product_overview.pdf" class="btn theme-btn-color btn-big btn-radius">
+                          <i class="fa fa-file-pdf-o"></i>
+                          Download our product overview brochure with information the applications of our products
+                        </a>
                     </div>
-                </div> --><!--row-->
+                </div>
             </div><!--portfolio container end-->
             <div id="grid">
               {% for photo in site.photo_gallery %}
@@ -249,6 +214,81 @@ layout: null
             </div><!--grid-->
             <div class="clearfix"></div>
             <div class="container">
+              <div class="row">
+                <div class="col-md-4 col-md-push-4">
+                  <h4 class="text-center">Additional NDT Applications</h4>
+                  <ul class="text-left">
+                    <li>HDPE pipe fusion welds</li>
+                    <li>TOFD for polyethylene products</li>
+                    <li>Girth weld & welds in general</li>
+                    <li>High temperature Silicon wheel and pads</li>
+                    <li>Wedge assemblies</li>
+                    <li>Rail and high production Polyurethane</li>
+                    <li>Concrete Rebar inspection</li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+        </section>
+
+        <div class="clearfix"></div>
+        <section class="padd-section" id="materials">
+
+            <div class="container">
+              <div class="row margin-btm-20">
+                <div class="col-md-12">
+                    <h3 class="heading-sec">Materials</h3>
+                </div>
+                <div class="col-md-4 text-center">
+                  <h4>Our Materials</h4>
+                  <ul class="text-left">
+                    <li>AqualeneTM Industry standard optimal coupling</li>
+                    <li>ACETM Low temperature wheel applications</li>
+                    <li>AqualinkTM (supersoft, very Clear, conforming)</li>
+                    <li>AquaSilox 100 (High temperature)</li>
+                    <li>AqualSilox 200 (Oil resistance and high temp)</li>
+                    <li>AquaCyan (High abrasion, tough)</li>
+                  </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                  <h4>Brochures</h4>
+                  <ul class="text-left">
+                    <li>
+                      <a href="/assets/pdfs/material_property_overview.pdf" download>
+                        <i class="fa fa-file-pdf-o"></i>
+                        Material Property Overview
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/assets/pdfs/material_graphs.pdf" download>
+                        <i class="fa fa-file-pdf-o"></i>
+                        Material Performance Graphs
+                      </a>
+                    </li>
+                  </ul>
+                  
+                </div>
+                <div class="col-md-4 text-center">
+                  <h4>Research Papers</h4>
+                  <ul class="text-left">
+                    <li>
+                      <a href="/assets/pdfs/Technical%20Paper%20on%20all%20ACE%20and%20Aqualene%20options%20Dec%202015.pdf" download>
+                        <i class="fa fa-file-pdf-o"></i>
+                        Acoustic Properties of the Elastomeric Materials Aqualene&trade; and ACE&trade;
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/assets/pdfs/Medical%20428-4877-1-PB-Aqualene-Kaunas.pdf" download>
+                        <i class="fa fa-file-pdf-o"></i>
+                        Development of the stable ultrasound phantoms for superficial human tissue investigation
+                      </a>
+                    </li>
+                  </ul>
+  
+                </div>            
+              </div>
+
               <div class="row margin-btm-20">
                 <div class="col-md-12 text-center">
                   <h4>HDPE Butt Fusion Weld Inspection</h4>
@@ -272,7 +312,7 @@ layout: null
                   </div>
                 </div>
               </div>
-              <div class="row margin-btm-20">
+              <div class="row">
                 <div class="col-md-12 text-center">
                   <h4>TOFD for polyethylene Inspection </h4>
                   <div class="col-md-6">
@@ -287,46 +327,15 @@ layout: null
                     </h5>
                     <img src="/images/gallery/tofd_ace.png" class="img-responsive">
                   </div>
-                  <p>Using low velocity wedge material such as ACE™ provides a good velocity ratio resulting in less beam distortion.  The higher refracted beams can be generated with lower incident angles.  35.4° incidence produces a 60° refracted angle in HDPE (Vel. 2330m/s) and a useful lateral wave can be obtained even with a 5MHz probe.</p>
+                  <div class="col-md-8 col-md-push-2 text-center">
+                    <p>Using low velocity wedge material such as ACE™ provides a good velocity ratio resulting in less beam distortion.  The higher refracted beams can be generated with lower incident angles.  35.4° incidence produces a 60° refracted angle in HDPE (Vel. 2330m/s) and a useful lateral wave can be obtained even with a 5MHz probe.</p>
+                  </div>
                 </div>
-              </div>
-              <div class="row margin-btm-20">
-                <div class="col-md-4 text-center">
-                  <h4>Our Materials</h4>
-                  <ul class="text-left">
-                    <li>AqualeneTM Industry standard optimal coupling</li>
-                    <li>ACETM Low temperature wheel applications</li>
-                    <li>AqualinkTM (supersoft, very Clear, conforming)</li>
-                    <li>AquaSilox 100 (High temperature)</li>
-                    <li>AqualSilox 200 (Oil resistance and high temp)</li>
-                    <li>AquaCyan (High abrasion, tough)</li>
-                  </ul>
-                </div>
-                <div class="col-md-4 text-center">
-                  <h4>Additional NDT Applications</h4>
-                  <ul class="text-left">
-                    <li>HDPE pipe fusion welds</li>
-                    <li>TOFD for polyethylene products</li>
-                    <li>Girth weld & welds in general</li>
-                    <li>High temperature Silicon wheel and pads</li>
-                    <li>Wedge assemblies</li>
-                    <li>Rail and high production Polyurethane</li>
-                    <li>Concrete Rebar inspection</li>
-                  </ul>
-                </div>
-                <div class="col-md-4 text-center">
-                  <h4>High Temperature</h4>
-                  <ul class="text-left">
-                    <li>Wheels and novel polymer wedge materials can enable safe ultrasonic inspection to 350°C with 100% inspection duty cycle.</li>
-                    <li>Silicon based tire designs and integrated cooling systems enhance inspection capability.</li>
-                  </ul>
-                </div>                
               </div>
             </div>
         </section>
 
         <div class="clearfix"></div>
-
         <div class="padd-section" id="customers">
           <section id="content-region-1" class="padding-40">
             <div class="container">
@@ -406,10 +415,8 @@ layout: null
         <div class="cta-bg">
             <div class="container text-center">
                 <h3>Contact us to discuss your NDT needs
-                    <a href="tel:226-749-3035" class="btn btn-lg btn-white btn-radius">
-                      <i class="fa fa-phone"></i>
-                      226-749-3035
-                    </a>
+                    <span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:eznparvy@vaabingvbacbylzref.pn\" gnetrg=\"_oynax\" pynff=\"oga oga-qrsnhyg\"><v pynff=\"vba-rznvy\"></v> eznparvy@vaabingvbacbylzref.pn</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});</script>
+                    <noscript><span class="btn btn-default" style="unicode-bidi:bidi-override;direction:rtl;">ac.sremylopnoitavonni@liencamr <i class="ion-email"></i></span></noscript></span>
                 </h3>
             </div>
         </div>
@@ -418,7 +425,7 @@ layout: null
           <div id="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 margin-btm-20">
+                    <div class="col-md-3">
 <!--                         <div class="footer-col">
                             <h3>Bizwrap</h3>
                             <p>
@@ -428,12 +435,13 @@ layout: null
                         <div class="space-20"></div> -->
                         <div class="footer-col">
                             <h3>contact info</h3>
-                            <p><a target="_blank" href="https://www.google.com/maps/dir/62 Mcbrine Pl, Kitchener, ON N2R 1H3/"><i class="ion-home"></i> 62 Mcbrine Place, Unit 5, Kitchener, Ontario N2R 1H3</a></p>
+                            <p><a target="_blank" href="https://www.google.com/maps/dir/62 Mcbrine Pl, Kitchener, ON N2R 1H3/"><i class="ion-home"></i> 62 Mcbrine Place, Unit 5, Kitchener, ON, N2R 1H3</a></p>
                             <p><a href="tel:226-749-3035"><i class="ion-iphone"></i> 226-749-3035</a></p>
-                            <p>
-                              <span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:vasb@vaabingvbacbylzref.pn\" gnetrg=\"_oynax\"><v pynff=\"vba-rznvy\"></v> vasb@vaabingvbacbylzref.pn</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});</script>
-                              <noscript><span style="unicode-bidi:bidi-override;direction:rtl;">ac.sremylopnoitavonni@ofni <i class="ion-email"></i></span></noscript></span>
+                            <p id="obf2">
+                              <script>document.getElementById("obf2").innerHTML="<n uers=\"znvygb:eznparvy@vaabingvbacbylzref.pn\" gnetrg=\"_oynax\"><v pynff=\"vba-rznvy\"></v> eznparvy@vaabingvbacbylzref.pn</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});</script>
+                              <noscript><span style="unicode-bidi:bidi-override;direction:rtl;">ac.sremylopnoitavonni@liencamr <i class="ion-email"></i></span></noscript>
                             </p>
+
                         </div>
 <!--                         <div class="space-20"></div>
                         <div class="footer-col">
@@ -461,7 +469,27 @@ layout: null
                             </ul>
                         </div>
                     </div><!--latest post col end-->
-                    <div class="col-md-8">
+                    <div class="col-md-3">
+                      <div class="footer-col">
+                        <h3>About Us</h3>
+                        <p>Our focus is on highly effective sound transfer through the development of acoustic-capable polymers. These new polymers enable coupling of the ultrasonic sensor to the material under test and provides a layer to couple, seal or optimize energy transfer.</p>
+
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="footer-col">
+                        <h3>Our Mission</h3>
+                        <p>To develop and produce high quality acoustic capable polymers to support the NDT and medical ultrasonic imaging industries</p>
+                        <p>Innovation Polymers has the capability to develop a wide range of unique sound coupling polymeric media.</p>                            
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="footer-col">
+                        <h3>Founder: Rick MacNeil P.Eng.</h3>
+                        <p>Rick has over 30 years of Polymer processing and project management experience in the rubber and plastics industry. The last 5 years of moulding products for the NDT industry has given Rick insight into what the industry needs and how to deliver.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-12 margin-btm-20">
                         <div class="footer-col">
                             <h3></h3>
                               <iframe

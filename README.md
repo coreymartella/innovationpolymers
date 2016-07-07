@@ -1,6 +1,23 @@
+## Jun 30 notes
+- [x] change email rmacneil@innno....
+- [x] change CTA to email
+- [x] remove company profile doc
+- [x] create new "Materials and Properties" section and pull material listing and link to materials pdf
+- [x] pull product overview pdf into prods & apps section
+- [x] remove high temperature listing
+- [x] pull about us down to the bottom, merge with contact
+- [x] remove testimonials
+- [x] resize TOFD images to equal scale
+- [] add "shore a" reference point (0-100, 95 shopping cart wheel)
+
+
 # Notes for Rick
 * you created `M-1` as a text file in `images/gallery` it needs to be in `_photo_gallery` and needs to end in `.md` the image file belongs in `images/gallery`
-* 
+* Review unused PDF files from Rick's last email
+* Review unused PNG files from Rick's last email
+
+
+
 
 [innovationpolymers.ca](http://innovationpolymers.ca)
 

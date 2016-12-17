@@ -101,10 +101,13 @@
 .footer-bottom{
   border-top: 1px solid #eeeeee;
   padding-top: 30px;
-  span{
+  span, a {
     color:#999;
     font-weight: 400;
     font-size: 14px;
+  }
+  a {
+    text-decoration: underline;
   }
 }
 

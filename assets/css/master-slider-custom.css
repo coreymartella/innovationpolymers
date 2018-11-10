@@ -1,5 +1,5 @@
 
-/* 
+/*
     Created on : 4 Jun, 2015, 10:12:47 PM
     Author     : Design_mylife
 */
@@ -10,8 +10,8 @@ body{
 .ms-layer.thin-text-white {
   color: #FFF;
   background: rgba(0, 0, 0, 0.72);
-  font-size: 77px;
- line-height: 77px;
+  font-size: 70px;
+  line-height: 70px;
   font-weight: normal;
   padding: 20px 25px ;
   margin: 0;
@@ -57,11 +57,11 @@ margin-top: 83px !important;
 .slide-1 .bigtext {
   width: 100%;
   text-align: center;
-  line-height: 77px;
+  line-height: 70px;
   margin-top: 100px;
 }
 .slide-1 .blacktext{
-    
+
 }
 
 .slide-3{
@@ -90,7 +90,7 @@ margin-top: 83px !important;
 .slide-3 .medium-text {
 	font-weight: 100;
 	top: 46% !important;
-	font-size: 77px;
+	font-size: 70px;
 	left: 73px;
 	margin: 0;
 	padding: 0;
@@ -171,14 +171,14 @@ margin-top: 83px !important;
 		font-size: 22pt;
 		margin:0px;
 	}
-	
+
 	.ms-staff-carousel .ms-staff-info h4{
 		font-weight: 300;
 		color:#787878;
 		font-size: 15pt;
 		margin:3px;
 	}
-	
+
 	.ms-staff-carousel .ms-staff-info .email a{text-decoration: none; color:#3f95ab;}
 	.ms-staff-carousel .ms-staff-info.email,.ms-staff-info p {
 	    margin: 4px;
@@ -197,7 +197,7 @@ margin-top: 83px !important;
     box-shadow : none;
     left:-45px;
  }
- 
+
 .ms-staff-carousel.ms-round .ms-nav-next {
     left:auto;
     right:-45px

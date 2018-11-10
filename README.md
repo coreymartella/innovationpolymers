@@ -1,3 +1,15 @@
+## Nov 5, 2018
+take out novel wheel designs and enahnced performance itesm
+
+new product is foicused on, brouchure and imagery focused on
+* HDPE pipe fusion welds
+* TOFD for polyethylene products
+
+http://take.ms/c9Qwn
+
+stock imagery for medical application
+
+
 ## Jun 30 notes
 - [x] change email rmacneil@innno....
 - [x] change CTA to email
@@ -37,7 +49,7 @@ These are the base materials we offer.  Then there are variations to these that 
 Olympus NDT  is our biggest customer:  We have an exclusive distribution arrangement with one formula of AqualeneTM
 http://www.olympus-ims.com/en/products/ndt-other/aqualene/
 
-There are many companies in ULTASONIC NON DESTRUCTIVE TESTING                 
+There are many companies in ULTASONIC NON DESTRUCTIVE TESTING
 This is a typical company we are supplying to: http://www.roboplanet.fr
 
 Customer list and associations: (this is not a complete list)

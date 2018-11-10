@@ -1,1 +1,5 @@
-url: "http://23.233.0.71:4000" # the base hostname & protocol for your site
+url: "http://ea11faf2.ngrok.io" # the base hostname & protocol for your site
+hostname: ea11faf2.ngrok.io
+site:
+  url: "http://ea11faf2.ngrok.io" # the base hostname & protocol for your site
+  hostname: ea11faf2.ngrok.io
